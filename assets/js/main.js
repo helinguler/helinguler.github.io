@@ -104,7 +104,7 @@
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
-					selector: '.work-item a.image',
+					selector: '.work-item a.image[href$=".jpg"], .work-item a.image[href$=".png"], .work-item a.image[href$=".jpeg"]',
 					usePopupCaption: true,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
